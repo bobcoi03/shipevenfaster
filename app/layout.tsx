@@ -4,6 +4,8 @@ import Navbar from '@/components/ui/Navbar';
 import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
+export const dynamic = 'force-dynamic';
+
 const meta = {
   title: 'Next.js Subscription Starter',
   description: 'Brought to you by Vercel, Stripe, and Supabase.',
