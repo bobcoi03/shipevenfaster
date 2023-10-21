@@ -46,7 +46,7 @@ export default function RootLayout({
 }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className="bg-black loading">
+      <body className="" data-theme="business">
         <SupabaseProvider>
           {/* @ts-expect-error */}
           <Navbar />
