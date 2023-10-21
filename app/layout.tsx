@@ -48,7 +48,7 @@ export default function RootLayout({
 }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className="" data-theme="business">
+      <body className="" data-theme="valentine">
         <SupabaseProvider>
           <Navbar />
           <main

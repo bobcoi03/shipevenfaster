@@ -4,6 +4,7 @@ import {
   getSubscription,
   getActiveProductsWithPrices
 } from '@/app/supabase-server';
+import LandingHero from '@/components/LandingHero';
 
 export default async function PricingPage() {
   const [session, products, subscription] = await Promise.all([
@@ -13,11 +14,14 @@ export default async function PricingPage() {
   ]);
 
   return (
+    <>
+    <LandingHero/>
     <Pricing
       session={session}
       user={session?.user}
       products={products}
       subscription={subscription}
     />
+    </>
   );
 }
