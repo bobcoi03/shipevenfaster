@@ -72,6 +72,8 @@ export default function Pricing({
     }
   };
 
+  console.log(products.length);
+
   if (!products.length)
     return (
       <section className="bg-black">
