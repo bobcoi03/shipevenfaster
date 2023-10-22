@@ -1,6 +1,7 @@
 import SupabaseProvider from './supabase-provider';
 import Footer from '@/components/ui/Footer';
 import Navbar from '@/components/ui/Navbar';
+import { THEME } from '@/globals';
 import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
@@ -48,7 +49,7 @@ export default function RootLayout({
 }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className="" data-theme="valentine">
+      <body className="" data-theme={THEME}>
         <SupabaseProvider>
           <Navbar />
           <main
