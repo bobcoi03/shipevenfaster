@@ -12,6 +12,15 @@ export default function FAQ() {
                 </div>
             </div>
             <div className="collapse collapse-plus">
+                <input type="radio" name="my-accordion-3"/> 
+                <div className="collapse-title text-xl font-medium">
+                    Is it a one time purchase?
+                </div>
+                <div className="collapse-content"> 
+                    <p>Yes! You pay once and have access to the code forever. You are free to do whatever you want with it.</p>
+                </div>
+            </div>
+            <div className="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" /> 
                 <div className="collapse-title text-xl font-medium">
                     What technology stack is used?
