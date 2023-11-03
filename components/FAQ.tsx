@@ -17,7 +17,7 @@ export default function FAQ() {
                     Is it a one time purchase?
                 </div>
                 <div className="collapse-content"> 
-                    <p>Yes! You pay once and have access to the code forever. You are free to do whatever you want with it.</p>
+                    <p>It's freeeeeee!!!!!!.</p>
                 </div>
             </div>
             <div className="collapse collapse-plus">
@@ -35,7 +35,7 @@ export default function FAQ() {
                     Can I get a refund?
                 </div>
                 <div className="collapse-content"> 
-                    <p>Unfortunately we don't offer refunds as once you pay, you'll have access to the code and we can't reverse that.</p>
+                    <p>Unfortunately You can't refund... Because it's freeeeeeeee!!</p>
                 </div>
             </div>
         </div>
